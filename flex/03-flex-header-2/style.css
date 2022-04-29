@@ -4,14 +4,19 @@ you'll learn about it later. */
 
 body {
   margin: 0;
-  background: #eee;
+  background: rgb(207, 203, 203);
   font-family: Besley, serif;
 }
 
 .header {
-  background: white;
+  background: rgb(255, 255, 255);
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  gap: 8px 8px;
+  padding: 8px;
+  
+
 }
 
 .profile-image {
@@ -20,6 +25,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin: 8px;
 }
 
 .logo {
@@ -29,20 +35,27 @@ body {
   font-style: italic;
 }
 
-button {
+.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
 
 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+  background-color: white;
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
